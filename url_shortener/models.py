@@ -5,11 +5,13 @@ from random import choices
 
 from .extensions import db
 
-class Link(db.model):
-    id = db.Column(db.Integer, primary_key = True)
+class Link(db.Model):
+    id = db.Column(db.Integer, primary_key = True)#it's primary key
+
     original_url = db.Column(db.String(512))#upto 512 characters in riginal url
     
     short_url = db.Column(db.String(3), unique = True)#no. of characters in the custom url is 3
+    
     #to track no of visits
     visits = db.Column(db.Integer, default = 0)
     #date the url was created
@@ -17,7 +19,7 @@ class Link(db.model):
 
     def __init__(self, **kwargs):
         #kwargs->keyword arguments
-        super.__init__(**kwargs)
+        super().__init__(**kwargs)
         self.short_url = self.generate_short_link()
 
     def generate_short_link(self):#only self because it's the method of the class
