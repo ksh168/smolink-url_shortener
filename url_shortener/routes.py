@@ -52,4 +52,4 @@ def stats():
 #error handling for rogue input
 @short.errorhandler(404)
 def page_not_found(e):
-    return '', 404
+    return '<h1>404</h1>', 404
