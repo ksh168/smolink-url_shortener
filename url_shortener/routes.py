@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, request
+from flask import Blueprint, render_template, request, redirect
 
 from .extensions import db
 
@@ -10,7 +10,15 @@ short = Blueprint('short', __name__)
 #for actual short urls
 @short.route('/<short_url>')
 def redirect_to_url(short_url):
-    pass
+    #query the database
+    link = Link.query.filter_by(short_url = short_url).first_or_404()#if not found return 404
+
+    #each time a website is visited using genereated short_url, increment the counter
+    link.visits = link.visits + 1
+    #commit this to database
+    db.session.commit()
+
+    return redirect(link.original_url)
 
 
 @short.route('/')
@@ -36,7 +44,9 @@ def add_link():
 #for statistics
 @short.route('/stats')
 def stats():
-    pass
+    links = Link.query.all()
+
+    return render_template('stats.html', links = links)
 
 
 #error handling for rogue input
