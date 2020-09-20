@@ -8,9 +8,9 @@ from .extensions import db
 class Link(db.Model):
     id = db.Column(db.Integer, primary_key = True)#it's primary key
 
-    original_url = db.Column(db.String(512))#upto 512 characters in riginal url
+    original_url = db.Column(db.String(512))#upto 512 characters in original url
     
-    short_url = db.Column(db.String(3), unique = True)#no. of characters in the custom url is 3
+    short_url = db.Column(db.String(6), unique = True)#no. of characters in the custom url is 3
     
     #to track no of visits
     visits = db.Column(db.Integer, default = 0)
@@ -25,7 +25,7 @@ class Link(db.Model):
     def generate_short_link(self):#only self because it's the method of the class
         characters = string.digits + string.ascii_letters
         #join returns list and so it takes individual elements and join them together in one string
-        short_url = ''.join(choices(characters, k = 3))#k->no. of characters in short url
+        short_url = ''.join(choices(characters, k = 6))#k->no. of characters in short url
 
         #make sure that it's unique 
         link = self.query.filter_by(short_url = short_url).first()
