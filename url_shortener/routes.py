@@ -1,8 +1,8 @@
 from flask import Blueprint, render_template, request, redirect
 
 from .extensions import db
-
 from .models import Link
+from .auth import requires_auth
 
 short = Blueprint('short', __name__)
 
