@@ -16,6 +16,25 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 <img src="https://github.com/ksh168/url_shortener/blob/master/link%20table.png" width="50%" height="50%">
 
 
+
+
+# User Interface
+
+* **Index page**
+<img src="https://raw.githubusercontent.com/ksh168/url_shortener/master/screenshots/Index.png">
+
+* **Short URL generated**
+<img src="https://raw.githubusercontent.com/ksh168/url_shortener/master/screenshots/short%20url%20generated.png">
+
+* **Statistics (Needs HTTP Authentication)**
+<img src="https://raw.githubusercontent.com/ksh168/url_shortener/master/screenshots/stats.png">
+
+
+
+
+
+
+
 # Steps:
 
 Always recommended to create a virtual environment
@@ -99,6 +118,7 @@ Always recommended to create a virtual environment
 
 
 
-This project was made using [GitHub Codespaces Beta](https://github.com/features/codespaces).
+
+This project was made using **[GitHub Codespaces Beta](https://github.com/features/codespaces)**.
 
 Thanks to [Anthony](https://github.com/PrettyPrinted) and [Bulma](https://bulma.io/).
