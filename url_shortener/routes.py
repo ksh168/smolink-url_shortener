@@ -22,12 +22,14 @@ def redirect_to_url(short_url):
 
 
 @short.route('/')
+@requires_auth
 def index():
     return render_template('index.html')
 
 
 #processing url and then showing user the url
 @short.route('/add_link', methods = ['POST'])#will take POST requests
+@requires_auth
 def add_link():
     original_url = request.form['original_url']
     link = Link(original_url = original_url)
@@ -43,6 +45,7 @@ def add_link():
 
 #for statistics
 @short.route('/stats')
+@requires_auth
 def stats():
     links = Link.query.all()
 
@@ -52,4 +55,4 @@ def stats():
 #error handling for rogue input
 @short.errorhandler(404)
 def page_not_found(e):
-    return '<h1>404</h1>', 404
+    return render_template('404.html'), 404

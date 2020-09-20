@@ -1,2 +1,30 @@
-Old Link: {{ original_url }} <br />
-New Link: {{ url_for('short.redirect_to_url', short_url = new_link, _external = True) }}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="field">
+                <label class="label">Original URL</label>
+                <div class="control">
+                    <input class="input" type="text" name="original_url" value="{{ original_url }}">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Short URL</label>
+                <div class="control">
+                    <input class="input" type="text" name="original_url" value="{{ url_for('short.redirect_to_url', short_url = new_link, _external = True) }}">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
