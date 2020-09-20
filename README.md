@@ -39,11 +39,11 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 
 Always recommended to create a virtual environment
 
-* creates **virtual environment** and install flask
+* Creates **virtual environment** and install flask
 
 	```pipenv install flask```
 
-* to **start shell** and enter the venv
+* To **start shell** and enter the venv
 
 	```pipenv shell```
 
@@ -59,7 +59,7 @@ Always recommended to create a virtual environment
 
 
 # Now to create the database
-1. start python in terminal
+1. Start python in terminal
 
 	```python```
 
