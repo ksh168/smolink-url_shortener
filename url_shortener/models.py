@@ -24,6 +24,7 @@ class Link(db.Model):
 
     def generate_short_link(self):#only self because it's the method of the class
         characters = string.digits + string.ascii_letters
+        
         #join returns list and so it takes individual elements and join them together in one string
         short_url = ''.join(choices(characters, k = 6))#k->no. of characters in short url
 

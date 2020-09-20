@@ -22,14 +22,14 @@ def redirect_to_url(short_url):
 
 
 @short.route('/')
-@requires_auth
+#@requires_auth
 def index():
     return render_template('index.html')
 
 
 #processing url and then showing user the url
 @short.route('/add_link', methods = ['POST'])#will take POST requests
-@requires_auth
+#@requires_auth
 def add_link():
     original_url = request.form['original_url']
     link = Link(original_url = original_url)

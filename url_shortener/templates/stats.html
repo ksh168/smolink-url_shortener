@@ -17,6 +17,7 @@
                         <th>Original URL</th>
                         <th>Short URL</th>
                         <th>Visits</th>
+                        <th>Date Created</yh>
                     </tr>
                 </thead>
                 <tfoot>
@@ -24,6 +25,7 @@
                         <th>Original URL</th>
                         <th>Short URL</th>
                         <th>Visits</th>
+                        <th>Date Created</yh>
                     </tr>
                 </tfoot>
                 <tbody>
@@ -32,6 +34,7 @@
                         <td>{{ link.original_url }}</td>
                         <td>{{ url_for('short.redirect_to_url', short_url = link.short_url, _external = True) }}</td>
                         <td>{{ link.visits }}</td>
+                        <td>{{ link.date_created }}</td>
                     </tr>
                     {% endfor %}
                 </tbody>

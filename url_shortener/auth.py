@@ -1,3 +1,4 @@
+#code for basic HTTP authentication
 from functools import wraps
 from flask import request, Response, current_app
 
