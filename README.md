@@ -1,4 +1,4 @@
-# url_shortener
+# URL_Shortener - smol.link
 
 This project was born out of my curiosity for how URL Shorteners actually work.
 
