@@ -13,7 +13,7 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 
 
 * **"link" Table in the Database**
-![link table in database](https://github.com/ksh168/url_shortener/blob/master/link%20table.png)
+<img src="https://github.com/ksh168/url_shortener/blob/master/link%20table.png" width="50%" height="50%">
 
 
 # Steps:
