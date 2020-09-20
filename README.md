@@ -1,5 +1,6 @@
 # url_shortener
 
+This project was born out of my curiosity for how URL Shorteners actually work.
 
 This is a simple **URL shortener** in Flask.
 
