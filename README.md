@@ -121,5 +121,3 @@ Always recommended to create a virtual environment
 
 
 This project was made using **[GitHub Codespaces Beta](https://github.com/features/codespaces)**. Thanks to them for providing me early access to their such beautiful and useful feature.
-
-Thanks to [Anthony](https://github.com/PrettyPrinted) and [Bulma.io](https://bulma.io/).
