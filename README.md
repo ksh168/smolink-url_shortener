@@ -109,7 +109,7 @@ Always recommended to create a virtual environment
 * To **query the database**
 
 	```sql
-	SELECT * FROM link
+	SELECT * FROM link;
 	```
 
 * To exit sqlite3
