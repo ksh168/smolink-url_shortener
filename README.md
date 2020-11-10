@@ -1,5 +1,6 @@
-# url_shortener
+# URL_Shortener - smolink
 
+This project was born out of my curiosity for how URL Shorteners work.
 
 This is a simple **URL shortener** in Flask.
 
@@ -55,6 +56,9 @@ Always recommended to create a virtual environment
 
 * To **run the app**
 
+	**start shell** if not started
+	```pipenv shell```
+	
 	```flask run```
 
 
@@ -105,7 +109,7 @@ Always recommended to create a virtual environment
 * To **query the database**
 
 	```sql
-	SELECT * FROM link
+	SELECT * FROM link;
 	```
 
 * To exit sqlite3
@@ -119,6 +123,4 @@ Always recommended to create a virtual environment
 
 
 
-This project was made using **[GitHub Codespaces Beta](https://github.com/features/codespaces)**.
-
-Thanks to [Anthony](https://github.com/PrettyPrinted) and [Bulma.io](https://bulma.io/).
+This project was made using **[GitHub Codespaces Beta](https://github.com/features/codespaces)**. Thanks to them for providing me early access to their such beautiful and useful feature.
