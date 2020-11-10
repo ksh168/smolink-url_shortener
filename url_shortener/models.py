@@ -7,11 +7,13 @@ from .extensions import db
 
 class Link(db.Model):
     id = db.Column(db.Integer, primary_key = True)#it's primary key
+    #id = db.Column(db.Integer)
 
     original_url = db.Column(db.String(512))#upto 512 characters in original url
     
     short_url = db.Column(db.String(6), unique = True)#no. of characters in the custom url is 3
-    
+    #short_url = db.Column(db.String(6), primary_key = True)
+
     #to track no of visits
     visits = db.Column(db.Integer, default = 0)
     #date the url was created
