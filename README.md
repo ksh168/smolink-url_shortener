@@ -56,6 +56,9 @@ Always recommended to create a virtual environment
 
 * To **run the app**
 
+	**start shell** if not started
+	```pipenv shell```
+	
 	```flask run```
 
 
