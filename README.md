@@ -111,6 +111,11 @@ Always recommended to create a virtual environment
 	```sql
 	SELECT * FROM link;
 	```
+* To **delete table contents but not table**
+
+	```sql
+	DELETE FROM link;
+	```
 
 * To exit sqlite3
 
