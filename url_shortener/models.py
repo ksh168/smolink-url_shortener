@@ -13,7 +13,7 @@ class Link(db.Model):
 
     original_url = db.Column(db.String(512))#upto 512 characters in original url
     
-    short_url = db.Column(db.String(6), unique = True)#no. of characters in the custom url is 3
+    short_url = db.Column(db.String(6), unique = True)#no. of characters in the custom url is 6
     #short_url = db.Column(db.String(6), primary_key = True)
 
     #to track no of visits
@@ -32,14 +32,14 @@ class Link(db.Model):
         #join returns list and so it takes individual elements and join them together in one string
         short_url = ''.join(choices(characters, k = 6))#k->no. of characters in short url
 
-        #short_url = secrets.token_hex(3)#another method to generate the string
+        #short_url = secrets.token_hex(3)#another method to generate string(will generate 6 characters)
 
         #make sure that it's unique 
         link = self.query.filter_by(short_url = short_url).first()
 
         #check for uniqueness
         if link:
-            #if the 3 charactes generated already exist, recursively call to generate a new url
+            #if the 6 charactes generated already exist, recursively call to generate a new url
             return self.generate_short_link()
         
         return short_url
