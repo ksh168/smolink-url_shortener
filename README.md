@@ -48,7 +48,7 @@ Always recommended to create a virtual environment
 
 	```pipenv shell```
 
-* **Dependencies:**
+* **Dependencies:**(this step might not be needed)
 
 	```pipenv install python-dotenv```
 
