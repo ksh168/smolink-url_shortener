@@ -5,6 +5,8 @@ from random import choices
 
 from .extensions import db
 
+#import secrets         #use if secrets.token method is used
+
 class Link(db.Model):
     id = db.Column(db.Integer, primary_key = True)#it's primary key
     #id = db.Column(db.Integer)
@@ -29,6 +31,8 @@ class Link(db.Model):
         
         #join returns list and so it takes individual elements and join them together in one string
         short_url = ''.join(choices(characters, k = 6))#k->no. of characters in short url
+
+        #short_url = secrets.token_hex(3)#another method to generate the string
 
         #make sure that it's unique 
         link = self.query.filter_by(short_url = short_url).first()
