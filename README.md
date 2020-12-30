@@ -19,7 +19,7 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 
 
 
-# User Interface
+## User Interface
 
 * **Index page**
 <img src="https://raw.githubusercontent.com/ksh168/url_shortener/master/screenshots/Index.png">
@@ -32,11 +32,7 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 
 
 
-
-
-
-
-# Steps:
+## Steps:
 
 Always recommended to create a virtual environment
 
@@ -62,7 +58,7 @@ Always recommended to create a virtual environment
 	```flask run```
 
 
-# Now to create the database
+### Now to create the database
 1. Start python in terminal
 
 	```python```
@@ -152,8 +148,10 @@ Here are a couple of friendly tutorials: http://makeapullrequest.com/ and http:/
 
 * If this is your first pull request, it may help to understand [GitHub Flow](https://guides.github.com/introduction/flow/).
 
-# Community
+## Community
 * You can chat with the community [here]().
 
+
+## Acknowledgements and contributors
 
 This project was made using **[GitHub Codespaces Beta](https://github.com/features/codespaces)**. Thanks to them for providing me early access to their such beautiful and useful feature.
