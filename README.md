@@ -40,7 +40,7 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 
 Always recommended to create a virtual environment
 
-* Creates **virtual environment** and install flask
+* Create **virtual environment** and install flask
 
 	```pipenv install flask```
 
