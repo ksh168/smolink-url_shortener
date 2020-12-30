@@ -9,9 +9,9 @@
 
 # Your First Contribution
 
-> Beginner issues - issues which should only require a few lines of code, and a test or two.
-> Help wanted issues - issues which should be a bit more involved than beginner issues.
-> Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
+>Beginner issues - issues which should only require a few lines of code, and a test or two.
+>Help wanted issues - issues which should be a bit more involved than beginner issues.
+>Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
 
 
 ### Link to a resource for people who have never contributed to open source before.
