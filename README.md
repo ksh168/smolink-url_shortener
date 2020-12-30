@@ -125,7 +125,7 @@ Always recommended to create a virtual environment
 
 
 ## Contributing
-
-* Want to contribute? See (this)[https://github.com/ksh168/smolink-url_shortener/blob/master/contributing.md]
+0
+* Want to contribute? See [this](https://github.com/ksh168/smolink-url_shortener/blob/master/contributing.md)
 
 This project was made using **[GitHub Codespaces Beta](https://github.com/features/codespaces)**. Thanks to them for providing me early access to their such beautiful and useful feature.
