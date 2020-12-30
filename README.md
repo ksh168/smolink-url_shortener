@@ -125,6 +125,35 @@ Always recommended to create a virtual environment
 
 
 ## Contributing
-* Want to contribute? See [this](https://github.com/ksh168/smolink-url_shortener/blob/master/contributing.md)
+
+* First off, thank you for considering contributing.
+
+* There are many ways to contribute, from improving the documentation, submitting bug reports and feature requests or writing code which can be incorporated into project itself.
+
+* Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+* Please make sure to update tests as appropriate.
+
+* You can also edit the readme and make it more user friendly to help out new contributors.
+
+
+### Link to resources for people who have never contributed to open source before.
+Here are a couple of friendly tutorials: http://makeapullrequest.com/ and http://www.firsttimersonly.com/
+
+* Working on your first Pull Request? You can learn how from this *free* series, [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
+
+* Feel free to ask for help; everyone is a beginner at first :smile_cat:
+
+
+### Submitting a pull request
+* The smaller the proposed change, the better. If you’d like to propose two unrelated changes, submit two pull requests.
+
+* The more information, the better. Make judicious use of the pull request body. Describe what changes were made, why you made them, and what impact they will have for users.
+
+* If this is your first pull request, it may help to understand [GitHub Flow](https://guides.github.com/introduction/flow/).
+
+# Community
+* You can chat with the community [here]().
+
 
 This project was made using **[GitHub Codespaces Beta](https://github.com/features/codespaces)**. Thanks to them for providing me early access to their such beautiful and useful feature.
