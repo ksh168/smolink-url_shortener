@@ -23,6 +23,13 @@
                     <input class="input" type="text" name="original_url" value="{{ url_for('short.redirect_to_url', short_url = new_link, _external = True) }}">
                 </div>
             </div>
+            <form action="{{ url_for('short.index') }}">
+                <div class="field">
+                    <div class="control">
+                         <button type = "submit" class="button is-info">Short new URL</button>
+                    </div>
+                </div>
+            </form>
         </div>
     </section>
 </body>
