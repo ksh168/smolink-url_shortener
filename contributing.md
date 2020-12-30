@@ -1,9 +1,9 @@
 # Introduction
 
-* First off, thank you for considering contributing to smolink.
+* First off, thank you for considering contributing.
 
 
-* There are many ways to contribute, from improving the documentation, submitting bug reports and feature requests or writing code which can be incorporated into smolink itself.
+* There are many ways to contribute, from improving the documentation, submitting bug reports and feature requests or writing code which can be incorporated into project itself.
 
 
 
