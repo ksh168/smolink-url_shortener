@@ -152,6 +152,6 @@ Here are a couple of friendly tutorials: http://makeapullrequest.com/ and http:/
 * You can chat with the community [here]().
 
 
-## Acknowledgements and contributors
+## Acknowledgements
 
 This project was made using **[GitHub Codespaces Beta](https://github.com/features/codespaces)**. Thanks to them for providing me early access to their such beautiful and useful feature.
