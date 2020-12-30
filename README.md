@@ -129,7 +129,6 @@ Always recommended to create a virtual environment
 
 * Please make sure to update tests as appropriate.
 
-* If you face any problem or cannot understand anything, open up an issue.
 * You can also edit the readme and make it more user friendly to help out new contributors.
 
 
