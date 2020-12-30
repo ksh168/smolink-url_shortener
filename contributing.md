@@ -2,8 +2,13 @@
 
 * First off, thank you for considering contributing.
 
-
 * There are many ways to contribute, from improving the documentation, submitting bug reports and feature requests or writing code which can be incorporated into project itself.
+
+* Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+* Please make sure to update tests as appropriate.
+
+* You can also edit the readme and make it more user friendly to help out new contributors.
 
 
 
