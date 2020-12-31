@@ -132,6 +132,17 @@ Always recommended to create a virtual environment
 
 * You can also edit the readme and make it more user friendly to help out new contributors.
 
+### Goals of this project
+
+* Users can create personalized URLs
+
+* Ability to view stats for individual links by adding "-stats" to URL
+
+* User can create a account and then generate and manage all the stats from there
+
+* Security against cyber attacks
+
+(more will be added along the way)
 
 ### Link to resources for first timers:
 
