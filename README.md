@@ -152,7 +152,7 @@ Always recommended to create a virtual environment
 * Including screenshots/video of final interface/changes in your pull request is a must.
 
 ## Community
-* You can chat with the community [here]().
+* You can chat with the community [here](https://discord.gg/8nGszwFKS6).
 
 
 ## Acknowledgements
