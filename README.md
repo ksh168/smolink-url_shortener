@@ -133,7 +133,7 @@ Always recommended to create a virtual environment
 * You can also edit the readme and make it more user friendly to help out new contributors.
 
 
-### Link to resources for people who have never contributed to open source before.
+### Link to resources for first timers:
 Here are a couple of friendly tutorials: http://makeapullrequest.com/ and http://www.firsttimersonly.com/
 
 * Working on your first Pull Request? You can learn how from this *free* series, [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
