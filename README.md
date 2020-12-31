@@ -120,7 +120,7 @@ Always recommended to create a virtual environment
 	```
 
 
-## Contributing
+## Contributing [for OSF, NIT Warangal]
 
 * First off, thank you for considering contributing.
 
@@ -148,6 +148,8 @@ Always recommended to create a virtual environment
 * The more information, the better. Make judicious use of the pull request body. Describe what changes were made, why you made them, and what impact they will have for users.
 
 * If this is your first pull request, it may help to understand [GitHub Flow](https://guides.github.com/introduction/flow/).
+
+* Including screenshots/video of final interface/changes in your pull request is a must.
 
 ## Community
 * You can chat with the community [here]().
