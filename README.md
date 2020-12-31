@@ -120,7 +120,7 @@ Always recommended to create a virtual environment
 	```
 
 
-## Contributing [for OSF, NIT Warangal]
+## Contributing [Currently open for OSF, NIT Warangal participants only]
 
 * First off, thank you for considering contributing.
 
