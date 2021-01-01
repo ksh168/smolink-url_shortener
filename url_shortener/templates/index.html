@@ -15,7 +15,7 @@
                 <div class="field"><! -- has-addons->
                     <label class="label">Original URL</label>
                     <div class="control">
-                        <input class="input" type="text" name="original_url">
+                        <input class="input" type="url" name="original_url" pattern="http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+" required>
                     </div>
                 </div>
                 <div class="control">

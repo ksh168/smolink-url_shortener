@@ -25,7 +25,7 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 <img src="https://raw.githubusercontent.com/ksh168/url_shortener/master/screenshots/Index.png">
 
 * **Short URL generated**
-<img src="https://raw.githubusercontent.com/ksh168/url_shortener/master/screenshots/short%20url%20generated.png">
+<img src="https://raw.githubusercontent.com/ksh168/url_shortener/master/screenshots/short%20url%20generated.png" width="70%" height="70%">
 
 * **Statistics (Needs HTTP Authentication)**
 <img src="https://raw.githubusercontent.com/ksh168/url_shortener/master/screenshots/stats.png">
@@ -128,7 +128,7 @@ Always recommended to create a virtual environment
 
 * Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-* Please make sure to update tests as appropriate.
+* Please make sure to add you issue number while submitting your pull request (PR).
 
 * You can also edit the readme and make it more user friendly to help out new contributors.
 
@@ -138,7 +138,7 @@ Always recommended to create a virtual environment
 
 * Ability to view stats for individual links by adding "-stats" to URL
 
-* User can create a account and then generate and manage all the stats from there
+* User can create a account and then generate and manage all the links and their stats from there
 
 * Security against cyber attacks
 
