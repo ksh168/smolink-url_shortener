@@ -138,7 +138,7 @@ Always recommended to create a virtual environment
 
 * Ability to view stats for individual links by adding "-stats" to URL
 
-* User can create a account and then generate and manage all the stats from there
+* User can create a account and then generate and manage all the links and their stats from there
 
 * Security against cyber attacks
 
