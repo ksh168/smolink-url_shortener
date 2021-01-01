@@ -128,7 +128,7 @@ Always recommended to create a virtual environment
 
 * Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-* Please make sure to update tests as appropriate.
+* Please make sure to add you issue number while submitting your pull request (PR).
 
 * You can also edit the readme and make it more user friendly to help out new contributors.
 
