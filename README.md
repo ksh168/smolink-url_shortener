@@ -25,7 +25,7 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 <img src="https://raw.githubusercontent.com/ksh168/url_shortener/master/screenshots/Index.png">
 
 * **Short URL generated**
-<img src="https://raw.githubusercontent.com/ksh168/url_shortener/master/screenshots/short%20url%20generated.png" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/ksh168/url_shortener/master/screenshots/short%20url%20generated.png" width="70%" height="70%">
 
 * **Statistics (Needs HTTP Authentication)**
 <img src="https://raw.githubusercontent.com/ksh168/url_shortener/master/screenshots/stats.png">
