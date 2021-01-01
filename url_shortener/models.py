@@ -1,12 +1,13 @@
 import string
 from datetime import datetime
-
 from random import choices
 
 from .extensions import db
 
 #import secrets         #use if secrets.token method is used
 
+URL_LEN = 3 # Length of generated url
+ 
 class Link(db.Model):
     id = db.Column(db.Integer, primary_key = True)#it's primary key
     #id = db.Column(db.Integer)
@@ -24,22 +25,17 @@ class Link(db.Model):
     def __init__(self, **kwargs):
         #kwargs->keyword arguments
         super().__init__(**kwargs)
+        self.short_url = "None" # Giving temperory link
+        db.session.add(self)
+        db.session.commit()
         self.short_url = self.generate_short_link()
 
     def generate_short_link(self):#only self because it's the method of the class
         characters = string.digits + string.ascii_letters
         
-        #join returns list and so it takes individual elements and join them together in one string
-        short_url = ''.join(choices(characters, k = 6))#k->no. of characters in short url
+        # Set short url to id of element 
+        short_url = str(self.id).rjust(URL_LEN, '0')
 
         #short_url = secrets.token_hex(3)#another method to generate string(will generate 6 characters)
-
-        #make sure that it's unique 
-        link = self.query.filter_by(short_url = short_url).first()
-
-        #check for uniqueness
-        if link:
-            #if the 6 charactes generated already exist, recursively call to generate a new url
-            return self.generate_short_link()
         
         return short_url
