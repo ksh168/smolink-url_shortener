@@ -42,6 +42,12 @@ def add_link():
     if UrlValidator.validate(original_url) is None:
         return "Invalid url", 400
 
+    already_exists = Link.query.filter_by(short_url = custom_end).first()
+
+    if already_exists and already_exists.short_url:
+        return render_template('index.html', 
+        custom_end = custom_end, original_url = original_url, message="custom end already exists")
+
     link = Link(original_url = original_url, short_url = custom_end)
 
     #add both short and original url into database
