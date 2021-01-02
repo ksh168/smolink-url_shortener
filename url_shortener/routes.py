@@ -34,11 +34,12 @@ def index():
 #@requires_auth
 def add_link():
     original_url = request.form['original_url']
+    custom_end = request.form['custom_end']
 
     if UrlValidator.validate(original_url) is None:
         return "Invalid url", 400
 
-    link = Link(original_url = original_url)
+    link = Link(original_url = original_url, short_url = custom_end)
 
     #add both short and original url into database
     db.session.add(link)
