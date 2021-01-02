@@ -134,13 +134,13 @@ Always recommended to create a virtual environment
 
 ### Goals of this project
 
-* Users can create personalized URLs
+* [x] Users can create personalized URLs 
 
-* Ability to view stats for individual links by adding "-stats" to URL
+* [ ] Ability to view stats for individual links by adding "-stats" to URL
 
-* User can create a account and then generate and manage all the links and their stats from there
+* [ ] User can create a account and then generate and manage all the links and their stats from there
 
-* Security against cyber attacks
+* [ ] Security against cyber attacks
 
 (more will be added along the way)
 
