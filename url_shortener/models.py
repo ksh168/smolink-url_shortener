@@ -24,7 +24,8 @@ class Link(db.Model):
     def __init__(self, **kwargs):
         #kwargs->keyword arguments
         super().__init__(**kwargs)
-        self.short_url = self.generate_short_link()
+        if self.short_url == "":
+            self.short_url = self.generate_short_link()
 
     def generate_short_link(self):#only self because it's the method of the class
         characters = string.digits + string.ascii_letters
