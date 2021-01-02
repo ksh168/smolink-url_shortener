@@ -42,11 +42,15 @@ def add_link():
     link = Link(original_url = original_url, short_url = custom_end)
 
     #add both short and original url into database
-    db.session.add(link)
-    db.session.commit()
-
-    return render_template('link_added.html', 
-        new_link = link.short_url, original_url = link.original_url)
+    try:
+        db.session.add(link)
+        db.session.commit()
+    except:
+        return render_template('link_added.html', 
+        new_link = "Custom url not available", original_url = link.original_url)
+    else:
+        return render_template('link_added.html', 
+            new_link = link.short_url, original_url = link.original_url)
 
 
 

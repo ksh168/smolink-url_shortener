@@ -20,7 +20,11 @@
             <div class="field">
                 <label class="label">Short URL</label>
                 <div class="control">
+                    {% if new_link == "Custom url not available" %}
+                    <input class="input" type="text" name="original_url" value="Custom url not available">
+                    {% else %}
                     <input class="input" type="text" name="original_url" value="{{ url_for('short.redirect_to_url', short_url = new_link, _external = True) }}">
+                    {% endif %}
                 </div>
             </div>
             <form action="{{ url_for('short.index') }}">
