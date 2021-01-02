@@ -33,17 +33,30 @@ def index():
 @short.route('/add_link', methods = ['POST'])#will take POST requests
 #@requires_auth
 def add_link():
-    original_url = request.form['original_url']
-    custom_end = request.form['custom_end']
+    original_url = request.form.get('original_url')
+    custom_end = request.form.get('custom_end')
+
+    if original_url is None:
+        return "original_url field is required", 400
 
     if UrlValidator.validate(original_url) is None:
         return "Invalid url", 400
+
+    already_exists = Link.query.filter_by(short_url = custom_end).first()
+
+    if already_exists and already_exists.short_url:
+        return render_template('index.html', 
+        custom_end = custom_end, original_url = original_url, message="custom end already exists")
 
     link = Link(original_url = original_url, short_url = custom_end)
 
     #add both short and original url into database
     db.session.add(link)
-    db.session.commit()
+    try:
+        db.session.commit()
+    except:
+        return "couldn't add to database", 500
+    
 
     return render_template('link_added.html', 
         new_link = link.short_url, original_url = link.original_url)

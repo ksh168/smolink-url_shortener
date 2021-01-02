@@ -24,7 +24,7 @@ class Link(db.Model):
     def __init__(self, **kwargs):
         #kwargs->keyword arguments
         super().__init__(**kwargs)
-        if self.short_url == "":
+        if not self.short_url:
             self.short_url = self.generate_short_link()
 
     def generate_short_link(self):#only self because it's the method of the class
