@@ -9,6 +9,7 @@ verify_ssl = true
 flask = "*"
 python-dotenv = "*"
 flask-sqlalchemy = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.8"
