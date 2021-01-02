@@ -1,13 +1,10 @@
-<<<<<<< HEAD
-# Envs
+# Databases 
+*.sqlite3
+*db*
+
+#Envs
 envs/
 
-# Databases 
-*.sqlite3
-
-#__pycache__
+# cache 
 __pycache__/
-=======
-# Databases 
-*.sqlite3
->>>>>>> 2502081435695d8c5fb8f11c019dca94cc371770
+*.pyc 
