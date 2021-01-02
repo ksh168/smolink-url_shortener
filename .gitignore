@@ -1,3 +1,2 @@
 # Databases 
 *.sqlite3
-url_shortener/db.sqlite3
