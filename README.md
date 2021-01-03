@@ -140,11 +140,11 @@ Always recommended to create a virtual environment
 
 ### Goals of this project
 
-* [x] Users can create personalized URLs 
+:white_check_mark: Users can create personalized URLs 
 
-* [x] Check user input to make sure it's URL
+:white_check_mark: Check user input to make sure it's URL
 
-* [x] Support for ftp[s]
+:white_check_mark: Support for ftp[s]
 
 * [ ] Ability to view stats for individual links by adding "-stats" to URL
 
