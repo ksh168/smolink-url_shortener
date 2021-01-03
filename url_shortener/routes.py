@@ -40,8 +40,11 @@ def add_link():
     custom_end = request.form.get('custom_end')
     
     if len(custom_end) > 64:
-        return "custom_url is longer than 64 characters", 400        
-
+        return "custom_url is longer than 64 characters", 400      
+    
+    if len(original_url) > 512:
+        return "original_url is longer than 512 characters", 400      
+    
     if original_url is None:
         return "original_url field is required", 400
 
