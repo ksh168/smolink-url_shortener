@@ -38,6 +38,9 @@ def index():
 def add_link():
     original_url = request.form.get('original_url')
     custom_end = request.form.get('custom_end')
+    
+    if len(custom_end) > 64:
+        return "custom_url is longer than 64 characters", 400        
 
     if original_url is None:
         return "original_url field is required", 400
