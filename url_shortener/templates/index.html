@@ -16,9 +16,9 @@
                     <label class="label req">Original URL </label>
                     <div class="control">
                         {% if original_url %}
-                        <input class="input" type="url" placeholder="Insert URL here" name="original_url" max_length = "512" value = "{{original_url}}" pattern="(?:http|ftp)[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+" required>
+                        <input class="input" type="url" placeholder="Insert URL here" name="original_url" maxlength = "512" value = "{{original_url}}" pattern="(?:http|ftp)[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+" required>
                         {% else %}
-                        <input class="input" type="url" placeholder="Insert URL here" name="original_url" max_length = "512" pattern="(?:http|ftp)[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+" required>
+                        <input class="input" type="url" placeholder="Insert URL here" name="original_url" maxlength = "512" pattern="(?:http|ftp)[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+" required>
                         {% endif %}
                     </div>
                 </div>
@@ -26,9 +26,9 @@
                     <label class="label">Custom personalized URL</label>
                     <div class="control">
                         {% if custom_end %}
-                        <input class="input" placeholder="Insert custom URL here" type="text" max_length = "64" name="custom_end" value = "{{custom_end}}">
+                        <input class="input" placeholder="Insert custom URL here" type="text" maxlength = "64" name="custom_end" value = "{{custom_end}}">
                         {% else %}
-                        <input class="input" placeholder="Insert custom URL here" type="text" max_length = "64" name="custom_end">
+                        <input class="input" placeholder="Insert custom URL here" type="text" maxlength = "64" name="custom_end">
                         {% endif %}
                     </div>
                     {% if message %}
