@@ -14,13 +14,16 @@
             <div class="field">
                 <label class="label">Original URL</label>
                 <div class="control">
-                    <input class="input" type="text" name="original_url" value="{{ original_url }}">
+                    <input class="input" type="text" name="original_url" value="{{ original_url }}" readonly>
                 </div>
             </div>
             <div class="field">
                 <label class="label">Short URL</label>
                 <div class="control">
-                    <input class="input" type="text" name="original_url" value="{{ url_for('short.redirect_to_url', short_url = new_link, _external = True) }}">
+                    <input id="short-url" class="input" type="text" name="original_url" value="{{ url_for('short.redirect_to_url', short_url = new_link, _external = True) }}" readonly>
+                </div>
+                <div class="control">
+                    <button id="copy-btn" type="submit" class="button is-primary is-outlined" onclick="CopyToClipboard();">Copy Link!</button>
                 </div>
             </div>
             <form action="{{ url_for('short.index') }}">
@@ -30,8 +33,25 @@
                     </div>
                 </div>
             </form>
+                
         </div>
     </section>
+    <script>
+        function CopyToClipboard(){
+            var elem = document.querySelector('#short-url');
+            elem.select();
+            document.execCommand("copy");
+            document.getSelection().collapseToEnd();
+            elem = document.querySelector('#copy-btn');
+            elem.innerHTML = "Copied!";
+            elem.classList.remove('is-outlined');
+            setTimeout(function() {
+                elem.innerHTML = "Copy Link!";
+                
+                elem.classList.add('is-outlined');
+                }, 2000);
+            }
+    </script>
 </body>
 
 </html>
