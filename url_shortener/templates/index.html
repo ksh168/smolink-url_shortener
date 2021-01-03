@@ -16,19 +16,19 @@
                     <label class="label">Original URL</label>
                     <div class="control">
                         {% if original_url %}
-                        <input class="input" type="url" name="original_url" value = "{{original_url}}" pattern="(?:http|ftp)[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+" required>
+                        <input class="input" type="url" placeholder="Insert URL here" name="original_url" value = "{{original_url}}" pattern="(?:http|ftp)[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+" required>
                         {% else %}
-                        <input class="input" type="url" name="original_url" pattern="(?:http|ftp)[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+" required>
+                        <input class="input" type="url" placeholder="Insert URL here" name="original_url" pattern="(?:http|ftp)[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+" required>
                         {% endif %}
                     </div>
                 </div>
                 <div class="field">
-                    <label class="label">Custom personalized URL ending(optional)</label>
+                    <label class="label">Custom personalized URL</label>
                     <div class="control">
                         {% if custom_end %}
-                        <input class="input" type="text" name="custom_end" value = "{{custom_end}}">
+                        <input class="input" placeholder="Insert custom URL here" type="text" name="custom_end" value = "{{custom_end}}">
                         {% else %}
-                        <input class="input" type="text" name="custom_end">
+                        <input class="input" placeholder="Insert custom URL here" type="text" name="custom_end">
                         {% endif %}
                     </div>
                     {% if message %}
