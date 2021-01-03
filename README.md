@@ -25,7 +25,7 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 <img src="screenshots/Index.png">
 
 * **Short URL generated**
-<img src="screenshots/short url generated.png" width="60%" height="60%">
+<img src="screenshots/short url generated.png">
 
 * **Custom Short URL generated**
 <img src="screenshots/custom short url generated.png">
