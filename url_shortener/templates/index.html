@@ -13,7 +13,7 @@
         <div class="container">
             <form method="POST" action="{{ url_for('short.add_link') }}">
                 <div class="field">
-                    <label class="label" id="req">Original URL </label>
+                    <label class="label req">Original URL </label>
                     <div class="control">
                         {% if original_url %}
                         <input class="input" type="url" placeholder="Insert URL here" name="original_url" value = "{{original_url}}" pattern="(?:http|ftp)[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+" required>
@@ -45,7 +45,7 @@
 
 
 <style>
-    #req:after {
+    .req:after {
   content:" *";
   color: red;
 }
