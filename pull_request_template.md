@@ -1,6 +1,6 @@
 # Description
 
-Please include a summary of the change and which issue is fixed. Please also include screenshots of changes/interface.
+Please include a summary of the change and which issue is fixed and how it will affect the project.
 
 Fixes # (issue)
 
