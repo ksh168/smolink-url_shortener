@@ -22,13 +22,19 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 ## User Interface
 
 * **Index page**
-<img src="https://raw.githubusercontent.com/ksh168/url_shortener/master/screenshots/Index.png">
+<img src="screenshots/Index.png">
 
 * **Short URL generated**
-<img src="https://raw.githubusercontent.com/ksh168/url_shortener/master/screenshots/short%20url%20generated.png" width="70%" height="70%">
+<img src="screenshots/short url generated.png" width="60%" height="60%">
+
+* **Custom Short URL generated**
+<img src="screenshots/custom short url generated.png">
+
+* **Incase custom selected URL already exists**
+<img src="screenshots/custom end already exists.png">
 
 * **Statistics (Needs HTTP Authentication)**
-<img src="https://raw.githubusercontent.com/ksh168/url_shortener/master/screenshots/stats.png">
+<img src="screenshots/stats.png">
 
 
 
@@ -135,6 +141,10 @@ Always recommended to create a virtual environment
 ### Goals of this project
 
 * [x] Users can create personalized URLs 
+
+* [x] Check user input to make sure it's URL
+
+* [x] Support for ftp[s]
 
 * [ ] Ability to view stats for individual links by adding "-stats" to URL
 
