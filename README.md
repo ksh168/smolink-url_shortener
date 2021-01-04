@@ -28,10 +28,10 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 <img src="screenshots/Index.png">
 
 * **Short URL generated**
-<img src="screenshots/short url generated.png">
+<img src="screenshots/short_url_generated.png">
 
 * **Custom Short URL generated**
-<img src="screenshots/custom short url generated.png">
+<img src="screenshots/custom_short_url_generated.png">
 
 * **Incase custom selected URL already exists**
 <img src="screenshots/custom end already exists.png">
