@@ -4,7 +4,7 @@ from .extensions import db
 from .models import Link
 from .auth import requires_auth
 from .utils import UrlValidator, generate_short_link
-
+import re
 
 short = Blueprint('short', __name__)
 
