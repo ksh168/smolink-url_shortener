@@ -36,7 +36,7 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 * **Incase custom selected URL already exists**
 <img src="screenshots/custom end already exists.png">
 
-* **Individual Statistics**
+* **Individual link Statistics**
 <img src="screenshots/individual stats.png">
 
 * **Global Statistics (Needs admin HTTP Authentication)**
