@@ -86,3 +86,11 @@ def stats():
 @short.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
+
+#for individual stats
+@short.route('/<short_url>/stats')
+def individual_stats(short_url):
+    # links = Link.query.all()
+    links = Link.query.filter_by(short_url=short_url).all()
+
+    return render_template('stats.html', links=links)
