@@ -147,7 +147,7 @@ Always recommended to create a virtual environment
 
 :white_check_mark: Support for ftp[s]
 
-* [ ] Ability to view stats for individual links by adding "-stats" to URL
+:white_check_mark: Ability to view stats for individual links by adding "/stats" to URL
 
 * [ ] User can create a account and then generate and manage all the links and their stats from there
 
