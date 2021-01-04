@@ -26,9 +26,9 @@
                     <label class="label">Custom personalized URL</label>
                     <div class="control">
                         {% if custom_end %}
-                        <input class="input" placeholder="Insert custom URL here" type="text" maxlength = "64" name="custom_end" value = "{{custom_end}}">
+                        <input class="input" placeholder="Insert custom URL here" pattern="[a-zA-Z0-9_-]{2,}" type="text" maxlength = "64" name="custom_end" value = "{{custom_end}}">
                         {% else %}
-                        <input class="input" placeholder="Insert custom URL here" type="text" maxlength = "64" name="custom_end">
+                        <input class="input" placeholder="Insert custom URL here" pattern="[a-zA-Z0-9_-]{2,}" type="text" maxlength = "64" name="custom_end">
                         {% endif %}
                     </div>
                     {% if message %}
