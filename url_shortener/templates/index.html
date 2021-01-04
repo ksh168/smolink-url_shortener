@@ -24,7 +24,7 @@
                 </div>
                 <div class="field">
                     <label class="label">Custom personalized URL</label>
-                    <div class="control">
+                    <div class="control" title="Only alphanumeric,hyphen(-),underscore(_) allowed. Spaces not allowed.">
                         {% if custom_end %}
                         <input class="input" placeholder="Insert custom URL here" pattern="[a-zA-Z0-9_-]{2,}" type="text" maxlength = "64" name="custom_end" value = "{{custom_end}}">
                         {% else %}
