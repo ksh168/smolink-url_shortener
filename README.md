@@ -21,6 +21,9 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 
 ## User Interface
 
+* **UI walk-through**
+<img src="screenshots/uiwalkthrough.gif">
+
 * **Index page**
 <img src="screenshots/Index.png">
 
@@ -35,9 +38,6 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 
 * **Statistics (Needs HTTP Authentication)**
 <img src="screenshots/stats.png">
-
-* **UI walk-through**
-<img src="screenshots/uiwalkthrough.gif">
 
 ## Steps:
 
