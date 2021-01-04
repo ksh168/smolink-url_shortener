@@ -36,7 +36,8 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 * **Statistics (Needs HTTP Authentication)**
 <img src="screenshots/stats.png">
 
-
+* **UI walk-through**
+<img src="screenshots/uiwalkthrough.gif">
 
 ## Steps:
 
