@@ -13,10 +13,25 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 **All this data will be stored in a [sqlite3](https://www.sqlite.org/index.html) database**
 
 
+### Goals of this project
+
+:white_check_mark: Users can create personalized URLs 
+
+:white_check_mark: Check user input to make sure it's URL
+
+:white_check_mark: Support for ftp[s]
+
+:white_check_mark: Ability to view stats for individual links by adding "/stats" to URL
+
+* [ ] User can create a account and then generate and manage all the links and their stats from there
+
+* [ ] Security against cyber attacks
+
+(more will be added along the way)
+
+
 * **"link" Table in the Database**
 <img src="https://github.com/ksh168/url_shortener/blob/master/link%20table.png" width="50%" height="50%">
-
-
 
 
 ## User Interface
@@ -142,21 +157,6 @@ Always recommended to create a virtual environment
 
 * You can also edit the readme and make it more user friendly to help out new contributors.
 
-### Goals of this project
-
-:white_check_mark: Users can create personalized URLs 
-
-:white_check_mark: Check user input to make sure it's URL
-
-:white_check_mark: Support for ftp[s]
-
-:white_check_mark: Ability to view stats for individual links by adding "/stats" to URL
-
-* [ ] User can create a account and then generate and manage all the links and their stats from there
-
-* [ ] Security against cyber attacks
-
-(more will be added along the way)
 
 ### Link to resources for first timers:
 
