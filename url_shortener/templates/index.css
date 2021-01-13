@@ -1,0 +1,20 @@
+.req:after {
+            content: " *";
+            color: red;
+        }
+
+        /*Below is the basic CSS written for the tooltip*/
+.tooltip {
+            position: absolute;
+            display: inline-block;
+            white-space: nowrap;
+            width: auto;
+            height: auto;
+            background-color: #11121b;
+            color: white;
+            padding: 4px 6px;
+            border-radius: 3px;
+            z-index: 99;
+            top: 0;
+            position: relative;
+        }

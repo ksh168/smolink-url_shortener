@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
     <!--Below Lines includes font awesome link to include the question mark icon-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
 <body>
@@ -59,49 +60,8 @@
     </section>
 
 
-    <style>
-        .req:after {
-            content: " *";
-            color: red;
-        }
+    <script src="index.js"></script>
 
-        /*Below is the basic CSS written for the tooltip*/
-        .tooltip {
-            position: absolute;
-            display: inline-block;
-            white-space: nowrap;
-            width: auto;
-            height: auto;
-            background-color: #11121b;
-            color: white;
-            padding: 4px 6px;
-            border-radius: 3px;
-            z-index: 99;
-            top: 0;
-            position: relative;
-        }
-    </style>
-    <script>
-        function Tooltip(el, text) {
-            /*
-               This function is used to trigger the tooltip box if the hovering is done over question mark 
-               icon whose classlist includes tool 
-            */
-
-            el.onmouseover = function () {
-                console.dir(el)
-                // Adding the below html to the existing one so that tooltip window appears
-                el.innerHTML += '<div class="tooltip">' + text + '</div>'
-            }
-            el.onmouseout = function () {
-                // on removing the mouse pointer the tooltip box will go away 
-                el.removeChild(el.querySelector(".tooltip"))
-            }
-        }
-
-        //Below is the function which will be called with the required text
-        Tooltip(document.getElementById('tool'), "Only alphanumeric,hyphen(-),underscore(_) allowed. Spaces not allowed.")
-    </script>
 </body>
 
 </html>
