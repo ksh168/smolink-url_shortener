@@ -31,19 +31,17 @@
                     </div>
                 </div>
                 <div class="field">
-                    <label class="label">Custom personalized URL</label>
+                    <!--Below is the line where icon is defined-->
+                    <label class="label">Custom personalized URL<i class="fa fa-question-circle" id="tool"
+                            aria-hidden="true"></i></label>
                     <div class="control" title="Only alphanumeric,hyphen(-),underscore(_) allowed. Spaces not allowed.">
                         {% if custom_end %}
                         <input class="input" placeholder="Insert custom URL here" pattern="[a-zA-Z0-9_-]{2,}"
                             type="text" maxlength="64" name="custom_end" value="{{custom_end}}">
-                        <!--Below line is written to include the question mark icon-->
-                        <i class="fa fa-question-circle" aria-hidden="true" class="tool"></i>
                         {% else %}
 
                         <input class="input" placeholder="Insert custom URL here" pattern="[a-zA-Z0-9_-]{2,}"
                             type="text" maxlength="64" name="custom_end">
-                        <!--Below line is written to include the question mark icon-->
-                        <i class="fa fa-question-circle" aria-hidden="true" class="tool"></i>
                         {% endif %}
                     </div>
                     {% if message %}
@@ -80,6 +78,7 @@
             border-radius: 3px;
             z-index: 99;
             top: 0;
+            position: relative;
         }
     </style>
     <script>
@@ -88,8 +87,9 @@
                This function is used to trigger the tooltip box if the hovering is done over question mark 
                icon whose classlist includes tool 
             */
-            console.log(el)
+
             el.onmouseover = function () {
+                console.dir(el)
                 // Adding the below html to the existing one so that tooltip window appears
                 el.innerHTML += '<div class="tooltip">' + text + '</div>'
             }
@@ -100,7 +100,7 @@
         }
 
         //Below is the function which will be called with the required text
-        Tooltip(document.getElementsByClassName('tool'), "Only alphanumeric,hyphen(-),underscore(_) allowed. Spaces not allowed.")
+        Tooltip(document.getElementById('tool'), "Only alphanumeric,hyphen(-),underscore(_) allowed. Spaces not allowed.")
     </script>
 </body>
 
