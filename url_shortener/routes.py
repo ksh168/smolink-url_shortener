@@ -58,8 +58,10 @@ def add_link():
     #allow alphanumeric characters, -, _ only in custom_end
     regex = '[a-zA-z0-9_-]$'
     
-    if((custom_end is not None) and (not re.search(regex, custom_end))):
-        return "custom_url contains invalid characters", 400
+    #these two lineas are cauing error in backend
+    #purpose of these lines is to check input in custom_end
+    #if((custom_end is not None) and (not re.search(regex, custom_end))):
+    #    return "custom_url contains invalid characters", 400
     #end input validation     
 
     already_exists = Link.query.filter_by(short_url=custom_end).first()
