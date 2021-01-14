@@ -25,6 +25,8 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 
 * [ ] User can create a account and then generate and manage all the links and their stats from there
 
+* [ ] Public website deployed
+
 * [ ] Security against cyber attacks
 
 (more will be added along the way)
