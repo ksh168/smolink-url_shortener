@@ -25,7 +25,7 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 
 :white_check_mark: Ability to view stats for individual links by adding "/stats" to URL
 
-:white_check_mark Public HTTPS website deployed
+:white_check_mark: Public HTTPS website deployed
 
 * [ ] User can create a account and then generate and manage all the links and their stats from there
 
