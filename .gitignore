@@ -1,3 +1,4 @@
 # Databases 
 *.sqlite3
 *.pyc
+*.db
