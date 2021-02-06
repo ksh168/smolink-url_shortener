@@ -1,6 +1,6 @@
 # URL_Shortener - smolink
 
-Access the service (here)[https://www.smolink.tech/]
+Access the service [here](https://www.smolink.tech/)
 
 This project was born out of my curiosity for how URL Shorteners work.
 
