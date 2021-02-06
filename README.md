@@ -1,6 +1,6 @@
 # URL_Shortener - smolink
 
-## Access the service [here](https://test1smolink.pythonanywhere.com/)
+## Access the service [here](https://smolink.pythonanywhere.com/)
 
 This project was born out of my curiosity for how URL Shorteners work.
 
