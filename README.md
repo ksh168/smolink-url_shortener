@@ -1,6 +1,6 @@
 # URL_Shortener - smolink
 
-## Access the service [here](https://www.smolink.tech/)
+## Access the service [here](https://test1smolink.pythonanywhere.com/)
 
 This project was born out of my curiosity for how URL Shorteners work.
 
@@ -9,8 +9,6 @@ This is a simple **URL shortener** in Flask.
 Shortens URL upto length 512 characters to 6 characters.
 
 Made using Flask-SQLAlchemy. This URL shortener will be able to redirect links and keep stats on the number of times each link was visited.
-
-Website hosted on AWS. HTTPS secured using [Let's Encrypt](https://letsencrypt.org) certificate. 
 
 Also has **[HTTP Basic Authentication](https://web.archive.org/web/20190128010144/http://flask.pocoo.org/snippets/8/)** to view stats.
 
@@ -27,7 +25,7 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 
 :white_check_mark: Ability to view stats for individual links by adding "/stats" to URL
 
-:white_check_mark: Public HTTPS website deployed (Currently hosted using AWS)
+:white_check_mark: Public HTTPS website deployed
 
 * [ ] User can create a account and then generate and manage all the links and their stats from there
 
