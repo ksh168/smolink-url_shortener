@@ -10,6 +10,8 @@ Shortens URL upto length 512 characters to 6 characters.
 
 Made using Flask-SQLAlchemy. This URL shortener will be able to redirect links and keep stats on the number of times each link was visited.
 
+Website hosted on AWS. HTTPS secured using [Let's Encrypt](https://letsencrypt.org) certificate. 
+
 Also has **[HTTP Basic Authentication](https://web.archive.org/web/20190128010144/http://flask.pocoo.org/snippets/8/)** to view stats.
 
 **All this data will be stored in a [sqlite3](https://www.sqlite.org/index.html) database**
