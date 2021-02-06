@@ -65,6 +65,22 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 
 Always recommended to create a virtual environment
 
+#### Method1: (Recommended)
+* ```pip3 install python3-venv```
+
+* Create a virtual environment called **venv**
+	
+	```python3 -m venv ./venv```
+
+* Activate venv
+
+	```source venv/bin/activate```
+
+* Install dependencies
+
+	```pip install -r requirements.txt```
+
+#### Method2:
 * Create **virtual environment** and install flask
 
 	```pipenv install flask```
