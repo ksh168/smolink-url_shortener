@@ -33,11 +33,11 @@
                 </div>
                 <div class="field">
                     <!--Below is the line where icon is defined-->
-                    <label class="label">Custom personalized URL<i class="fa fa-question-circle" id="tool"
+                    <label class="label">Custom alias<i class="fa fa-question-circle" id="tool"
                             aria-hidden="true"></i></label>
                     <div class="control" title="Only alphanumeric,hyphen(-),underscore(_) allowed. Spaces not allowed.">
                         {% if custom_end %}
-                        <input class="input" placeholder="Insert custom URL here" pattern="[a-zA-Z0-9_-]{2,}"
+                        <input class="input" placeholder="Insert custom alias here" pattern="[a-zA-Z0-9_-]{2,}"
                             type="text" maxlength="64" name="custom_end" value="{{custom_end}}">
                         {% else %}
 
