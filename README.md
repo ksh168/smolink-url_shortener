@@ -1,6 +1,6 @@
 # URL_Shortener - smolink
 
-## Access the service [here](https://www.smolink.tech/) or [here](https://smolink.pythonanywhere.com/)
+## Access the service [here](https://smolink.herokuapp.com/) or [here](https://smolink.pythonanywhere.com/)
 
 
 
