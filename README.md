@@ -222,4 +222,4 @@ Always recommended to create a virtual environment
 
 This project was made using **[GitHub Codespaces Beta](https://github.com/features/codespaces)**. Thanks to them for providing me early access to their such beautiful and useful feature.
 
-[![Contributors](https://img.shields.io/github/contributors/ksh168/smolink-url_shortener?style=for-the-badge)](https://github.com/ksh168/smolink-url_shortenero/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/ksh168/smolink-url_shortener?style=for-the-badge)](https://github.com/ksh168/smolink-url_shortener/graphs/contributors)
