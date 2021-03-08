@@ -1,5 +1,7 @@
 # URL_Shortener - smolink
 
+![](https://socialify.git.ci/ksh168/smolink-url_shortener/image?font=Inter&forks=1&issues=1&language=1&owner=1&pattern=Diagonal%20Stripes&pulls=1&stargazers=1&theme=Light)
+
 ## Access the service [here](https://smolink.herokuapp.com/) or [here](https://smolink.pythonanywhere.com/)
 
 
@@ -7,16 +9,6 @@
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ![Maintenance](https://img.shields.io/maintenance/yes/2021)
-
-
-[![Issues](https://img.shields.io/github/issues/ksh168/smolink-url_shortener)](https://github.com/ksh168/smolink-url_shortener/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/ksh168/smolink-url_shortener)](https://github.com/ksh168/smolink-url_shortener)
-[![Pull Requests](https://img.shields.io/github/issues-pr-closed/ksh168/smolink-url_shortener)](https://github.com/ksh168/smolink-url_shortener)
-
-
-[![Forks](https://img.shields.io/github/forks/ksh168/smolink-url_shortener?style=social)](https://github.com/ksh168/smolink-url_shortener) 
-[![Stars](https://img.shields.io/github/stars/ksh168/smolink-url_shortener?style=social)](https://github.com/ksh168/smolink-url_shortener) 
-[![Watchers](https://img.shields.io/github/watchers/ksh168/smolink-url_shortener?style=social)](https://github.com/khannakshat7/Elektraksh168/smolink-url_shortener)
 
 
 
