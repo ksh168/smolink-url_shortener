@@ -71,26 +71,35 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 * **Global Statistics (Needs admin HTTP Authentication)**
 <img src="screenshots/stats.png">
 
-## Steps:
+## Quick Setup:
+
+- Fork and Clone the repository using-
+```
+git clone https://github.com/ksh168/smolink-url_shortener.git
+```
+- Create a Branch- 
+```
+git checkout -b <branch_name>
+```
 
 Always recommended to create a virtual environment
 
-#### Method1: (Recommended)
-* ```pip3 install python3-venv```
+##### Method1: (Recommended)
+* ```sudo apt install python3-venv```
 
-* Create a virtual environment called **venv**
-	
-	```python3 -m venv ./venv```
+* Create a virtual environment called **myvenv**
 
-* Activate venv
+	```python3 -m venv ./myvenv```
 
-	```source venv/bin/activate```
+* Activate myvenv
+
+	```source myvenv/bin/activate```
 
 * Install dependencies
 
 	```pip install -r requirements.txt```
 
-#### Method2:
+##### Method2:
 * Create **virtual environment** and install flask
 
 	```pipenv install flask```
@@ -109,9 +118,14 @@ Always recommended to create a virtual environment
 
 	**start shell** if not started
 	```pipenv shell```
-	
-	```flask run```
 
+	```flask run```
+	
+#### Now headover to Project Directory- 
+
+```
+cd smolink-url_shortener
+```
 
 ### Now to create the database
 1. Start python in terminal
@@ -177,37 +191,10 @@ Always recommended to create a virtual environment
 
 ## Contributing
 
-* First off, thank you for considering contributing.
-
-* There are many ways to contribute, from improving the documentation, submitting bug reports and feature requests or writing code which can be incorporated into project itself.
-
-* Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-* Please make sure to add you issue number while submitting your pull request (PR).
-
-* You can also edit the readme and make it more user friendly to help out new contributors.
-
-
-### Link to resources for first timers:
-
-* Working on your first Pull Request? You can learn how from this *free* series, [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
-
-* Friendly tutorial: http://makeapullrequest.com/
-
-* Feel free to ask for help; everyone is a beginner at first :smile_cat:
-
-
-### Submitting a pull request
-* The smaller the proposed change, the better. If you’d like to propose two unrelated changes, submit two pull requests.
-
-* The more information, the better. Make judicious use of the pull request body. Describe what changes were made, why you made them, and what impact they will have for users.
-
-* If this is your first pull request, it may help to understand [GitHub Flow](https://guides.github.com/introduction/flow/).
-
-* Including screenshots/video of final interface/changes in your pull request is a must.
+Checout the [contributing guide](CONTRIBUTING.md)
 
 ## Community
-* You can chat with the community [here](https://discord.gg/8nGszwFKS6) or [here](https://github.com/ksh168/smolink-url_shortener/discussions).
+* You can chat with the community [here](https://github.com/ksh168/smolink-url_shortener/discussions) or [here](https://discord.gg/8nGszwFKS6).
 
 
 ## Acknowledgements
