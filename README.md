@@ -81,43 +81,43 @@ git clone https://github.com/ksh168/smolink-url_shortener.git
 Always recommended to create a virtual environment
 
 ##### Method1: (Recommended)
-> ```sudo apt install python3-venv```
+* ```sudo apt install python3-venv```
 
-> Create a virtual environment called **myvenv**
+* Create a virtual environment called **myvenv**
 
 	```python3 -m venv ./myvenv```
 
-> Activate myvenv
+* Activate myvenv
 
 	```source myvenv/bin/activate```
 
-> Install dependencies
+* Install dependencies
 
 	```pip install -r requirements.txt```
 
 ##### Method2:
-> Create **virtual environment** and install flask
+* Create **virtual environment** and install flask
 
 	```pipenv install flask```
 
-> To **start shell** and enter the venv
+* To **start shell** and enter the venv
 
 	```pipenv shell```
 
-> **Dependencies:**(this step might not be needed)
+* **Dependencies:**(this step might not be needed)
 
 	```pipenv install python-dotenv```
 
 	```pipenv install sql-alchemy```
 
-> To **run the app**
+* To **run the app**
 
 	**start shell** if not started
 	```pipenv shell```
 
 	```flask run```
-	
-- Now headover to Project Directory- 
+
+#### Now headover to Project Directory- 
 ```
 cd smolink-url_shortener
 ```
