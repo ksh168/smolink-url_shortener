@@ -77,10 +77,6 @@ Also has **[HTTP Basic Authentication](https://web.archive.org/web/2019012801014
 ```
 git clone https://github.com/ksh168/smolink-url_shortener.git
 ```
-- Create a Branch- 
-```
-git checkout -b <branch_name>
-```
 
 Always recommended to create a virtual environment
 
@@ -121,10 +117,13 @@ Always recommended to create a virtual environment
 
 	```flask run```
 	
-#### Now headover to Project Directory- 
-
+- Now headover to Project Directory- 
 ```
 cd smolink-url_shortener
+```
+- Create a Branch- 
+```
+git checkout -b <branch_name>
 ```
 
 ### Now to create the database
