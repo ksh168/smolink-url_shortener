@@ -2,7 +2,7 @@
 
 ![smolink-url_shortener](https://socialify.git.ci/ksh168/smolink-url_shortener/image?font=Inter&forks=1&issues=1&language=1&owner=1&pattern=Diagonal%20Stripes&pulls=1&stargazers=1&theme=Light)
 
-## Access the service [here](https://smolink.herokuapp.com/) or [here](https://smolink.pythonanywhere.com/)
+## Access the service [here](https://smolink.pythonanywhere.com/)
 
 
 
