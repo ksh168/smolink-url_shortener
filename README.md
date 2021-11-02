@@ -190,10 +190,10 @@ git checkout -b <branch_name>
 
 ## Contributing
 
-Checout the [contributing guide](CONTRIBUTING.md)
+Checkout the [contributing guide](CONTRIBUTING.md)
 
 ## Community
-* You can chat with the community [here](https://github.com/ksh168/smolink-url_shortener/discussions) or [here](https://discord.gg/8nGszwFKS6).
+* You can chat with the community [here](https://github.com/ksh168/smolink-url_shortener/discussions).
 
 
 ## Acknowledgements
