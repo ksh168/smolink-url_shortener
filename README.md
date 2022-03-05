@@ -110,12 +110,6 @@ Always recommended to create a virtual environment
 
 	```pipenv install sql-alchemy```
 
-* To **run the app**
-
-	**start shell** if not started
-	```pipenv shell```
-
-	```flask run```
 
 #### Now headover to Project Directory- 
 ```
@@ -186,6 +180,14 @@ git checkout -b <branch_name>
 	```sql
 		.exit
 	```
+
+#### To **run the app**
+
+```
+export FLASK_APP=run.py
+flask run
+```
+
 
 #### Inside the url_shortener folder there's a file called config.json. This file contains default values for DATABASE_URL, USERNAME and PASSWORD. Change it according your requirements.
 
