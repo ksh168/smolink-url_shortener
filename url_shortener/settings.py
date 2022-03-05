@@ -1,8 +1,9 @@
-#can also call it as config file
 import os
 import json
 
-with open('/etc/config.json') as config_file:
+#config file stored in local folder
+#with open('/etc/config.json') as config_file:
+with open('url_shortener/config.json') as config_file:
     config = json.load(config_file)
 
 
