@@ -187,6 +187,7 @@ git checkout -b <branch_name>
 		.exit
 	```
 
+#### Inside the url_shortener folder there's a file called config.json. This file contains default values for DATABASE_URL, USERNAME and PASSWORD. Change it according your requirements.
 
 ## Contributing
 
